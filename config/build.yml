@@ -1,0 +1,10 @@
+include:
+  - board: nice_nano_v2
+    shield: adv360_left
+    config:
+      - CONFIG_ZMK_POINTING=y
+
+  - board: nice_nano_v2
+    shield: adv360_right
+    config:
+      - CONFIG_ZMK_POINTING=y
