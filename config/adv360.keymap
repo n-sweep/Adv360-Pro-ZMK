@@ -6,8 +6,6 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/pointing.h>
 
-CONFIG_ZMK_POINTING=y;
-
 / {
     behaviors {
         #include "macros.dtsi"
